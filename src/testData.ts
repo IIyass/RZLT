@@ -7,6 +7,7 @@ export const githubUser = {
   following: 12,
   login: 'iiyass',
   htmlUrl: '/iiyass',
+  publicRepos: 10,
 };
 
 export const searchHistory = [

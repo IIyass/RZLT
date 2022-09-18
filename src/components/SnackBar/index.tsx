@@ -3,11 +3,12 @@ import { createStyles, makeStyles } from '@mui/styles';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectSnackBar, setSnackBar } from 'state/user/slice';
 import { SnackBarType } from 'types';
+import colors from 'theme/colors.module.scss';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     error: {
-      color: '#ffffff',
+      color: `${colors.white}`,
       backgroundColor: 'transparent',
       margin: 0,
       padding: '5px',

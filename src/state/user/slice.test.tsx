@@ -19,7 +19,7 @@ describe('User Slice', () => {
     it('should set shows on setEmployee', () => {
       const finalState: UserState = {
         ...initialState,
-        githubUser: githubUser,
+        githubUser,
       };
 
       expect(userRuducer(initialState, setGithubUser(githubUser))).toEqual(

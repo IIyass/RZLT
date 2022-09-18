@@ -41,7 +41,7 @@ const Search = () => {
   const githubUserRepos = useSelector(selectGithubUserRepos);
   const loading = useSelector(selectLoading);
   const searchStep = useSelector(selectSearchStep);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const classes = useStyles();
   const dispatch = useDispatch();

@@ -108,7 +108,7 @@ describe('Search Form', () => {
       },
     });
     expect(mockedUseDispatchFn).toHaveBeenCalledWith(
-      getGithubUserRepos({ search: 'iiyass', rowsPerPage: 5, page: 1 })
+      getGithubUserRepos({ search: 'iiyass', rowsPerPage: 5, page: 0 })
     );
   });
 
