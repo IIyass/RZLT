@@ -1,0 +1,20 @@
+ 
+$white: #ffffff;
+$secondary: #e9eff2;
+$primary:#081f3e  ;
+$error: #d21e4a;
+$black:#000000;
+$lightgrey-lightest: #f7f7f7;
+$lightgrey: rgb(118, 118, 118);
+$success: #31b267;
+
+:export{
+    white: $white;
+    primary: $primary;
+    secondary:$secondary;
+    error:$error;
+    black:$black;
+    lightgrey-lightest:$lightgrey-lightest;
+    lightgrey:$lightgrey;
+    success:$success
+}
